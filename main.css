@@ -1,17 +1,17 @@
-* {
+body * {
   background-color: white;
   display: flex;
   justify-content: center;
 }
 
 .box1 {
-  margin: 50px;
+  margin: 20px;
   display: flex;
   justify-content: center;
 }
 
 .ui.container {
-  margin: 100px;
+  margin: 20px;
 }
 
 /* .hands {
