@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>RPS</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  </head>
+  <body>
+  <div class="box1">
+    <h2 class="ui icon header">
+      <div class="content">
+        Rock Paper Scissors
+        <div class="sub header">Play to win.</div>
+      </div>
+      <i class="hand point right icon"></i>
+    </h2>
+  </div>
+    <div class="ui container">
+      <div class="hands">
+        <div class="column">
+          <button id="btn-rock" class="ui center aligned icon basic button">
+            <i id="btn-rock-icon" class="huge clockwise rotated hand rock icon"></i>
+          </button>
+        </div>
+        <div class="column">
+          <button  id="btn-paper" class="ui center aligned icon basic button">
+            <i id="btn-paper-icon" class="huge clockwise rotated hand paper icon"></i>
+          </button>
+        </div>  
+        <div class="column">
+          <button id="btn-scissors" class="ui center aligned icon basic button">
+            <i id="btn-scissors-icon" class="huge horizontally flipped hand scissors icon"></i>
+          </button>
+        </div>
+      </div>
+      <div class="ui one column centered grid"></div>
+        <br />
+        <br />
+        <br />
+        <div>
+          <div id="userChoice">
+            <i id="userIcon"></i>
+          </div>
+          <div id="computerChoice">
+            <i id="computerIcon"></i>
+          </div>
+        </div>
+        <br />
+        <div id="result"></div>
+        <div id="performance"></div>
+        <br />
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+* {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.ui.container {
+  margin: 100px;
+}
+
+/* .hands {
+  justify-content: left;
+}
+
+.results {
+  justify-content: left;
+} */
+
+/* .btn {
+  color: blue;
+} */
+
+
